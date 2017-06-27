@@ -3,6 +3,7 @@ html, html>body {
 	padding: 0px !important;
 	height: 100%;
 	width: 100%;
+	background: transparent;
 }
 body {
 	font-family: "Helvetica Neue", Ubuntu, "WenQuanYi Micro Hei", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei", "Apple LiGothic Medium", "SimHei", "ST Heiti", "WenQuanYi Zen Hei Sharp", Arial, sans-serif;
@@ -40,19 +41,19 @@ a{
 }
 #DonateText {
 	position: fixed;
-	font-size: 12px;
-	width: 70px;
-	height: 70px;
-	line-height: 70px;
-	color: #fff;
-	background: #ffd886 url(images/like.svg) no-repeat center 10px;
-	background-size: 20px;
+	font-size: 13px;
+	width: 200px;
+	height: 100px;
+	line-height: 90px;
+	color: #673ab7;
+	background: #2bbc8a url(images/like.svg) no-repeat center 10px;
+	background-size: 36px;
 	border-radius: 35px;
 	text-align: center;
-	left: calc(50% - 120px);
-	top: calc(50% - 60px);
+	left: calc(50% - 174px);
+	top: calc(50% - 70px);
 	z-index: -1;
-	transform: rotatez(-15deg );
+	transform: rotatez(0deg);
 }
 #donateBox {
 	left: calc(50% - 150px);
@@ -60,7 +61,7 @@ a{
 	background-color: #fff;
 	border: 1px solid #ddd;
 	border-radius: 6px;
-	width: 299px;
+	width: 152px;
 	height: 28px;
 	float: left;
 	z-index: 1;
@@ -151,7 +152,7 @@ a{
 #github {
 	width: 24px;
 	height: 24px;
-	left: calc(50% + 135px);
+	left: calc(50% - 10px);
 	top: calc(50% - 30px);
 	background: no-repeat center center url(images/github.svg);
 	background-size: contain;
